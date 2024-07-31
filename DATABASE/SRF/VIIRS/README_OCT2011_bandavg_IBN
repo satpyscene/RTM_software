@@ -1,0 +1,37 @@
+Files provided contain Oct 2011 NG band averaged RSR release for NPP VIIRS.  Files have been truncated  
+to include only in-band spectral region of each band (response >= 0.01) plus a small margin of neighboring 
+wavelengths with response < 0.01.  Response has been normalized to peak value of 1.0.
+
+Two columns of data per file:  wavelength (um) and normalized response.
+
+The spectral sampling is 0.1nm for VisNIR bands (M1 - M7, I1, I2) and 1nm for all other bands.
+
+List of files provided:
+-rw-rw-r--    1 ccm      ccm         25221 Nov 10 15:43 VIIRS_F1_Effective_RSR_I1.dat_bandavg_IBN
+-rw-rw-r--    1 ccm      ccm         17746 Nov 10 15:43 VIIRS_F1_Effective_RSR_I2.dat_bandavg_IBN
+-rw-rw-r--    1 ccm      ccm          7833 Nov 10 15:43 VIIRS_F1_Fused_v3_RSR_M1.dat_bandavg_IBN
+-rw-rw-r--    1 ccm      ccm          6890 Nov 10 15:43 VIIRS_F1_Fused_v3_RSR_M2.dat_bandavg_IBN
+-rw-rw-r--    1 ccm      ccm          7649 Nov 10 15:44 VIIRS_F1_Fused_v3_RSR_M3.dat_bandavg_IBN
+-rw-rw-r--    1 ccm      ccm         13652 Nov 10 15:44 VIIRS_F1_Fused_v3_RSR_M4.dat_bandavg_IBN
+-rw-rw-r--    1 ccm      ccm         12755 Nov 10 15:44 VIIRS_F1_Fused_v3_RSR_M5.dat_bandavg_IBN
+-rw-rw-r--    1 ccm      ccm          8270 Nov 10 15:44 VIIRS_F1_Fused_v3_RSR_M6.dat_bandavg_IBN
+-rw-rw-r--    1 ccm      ccm         17585 Nov 10 15:44 VIIRS_F1_Fused_v3_RSR_M7.dat_bandavg_IBN
+-rw-rw-r--    1 ccm      ccm          3325 Nov 10 15:44 VIIRS_F1_RSR_I3.dat_bandavg_IBN
+-rw-rw-r--    1 ccm      ccm         13422 Nov 10 15:44 VIIRS_F1_RSR_I4.dat_bandavg_IBN
+-rw-rw-r--    1 ccm      ccm         68898 Nov 10 15:45 VIIRS_F1_RSR_I5.dat_bandavg_IBN
+-rw-rw-r--    1 ccm      ccm          3325 Nov 10 15:45 VIIRS_F1_RSR_M10.dat_bandavg_IBN
+-rw-rw-r--    1 ccm      ccm          2474 Nov 10 15:45 VIIRS_F1_RSR_M11.dat_bandavg_IBN
+-rw-rw-r--    1 ccm      ccm          9673 Nov 10 15:45 VIIRS_F1_RSR_M12.dat_bandavg_IBN
+-rw-rw-r--    1 ccm      ccm          8477 Nov 10 15:45 VIIRS_F1_RSR_M13.dat_bandavg_IBN
+-rw-rw-r--    1 ccm      ccm         13560 Nov 10 15:45 VIIRS_F1_RSR_M14.dat_bandavg_IBN
+-rw-rw-r--    1 ccm      ccm         43322 Nov 10 15:45 VIIRS_F1_RSR_M15.dat_bandavg_IBN
+-rw-rw-r--    1 ccm      ccm         39435 Nov 10 15:45 VIIRS_F1_RSR_M16A.dat_bandavg_IBN
+-rw-rw-r--    1 ccm      ccm         39550 Nov 10 15:45 VIIRS_F1_RSR_M16B.dat_bandavg_IBN
+-rw-rw-r--    1 ccm      ccm          1554 Nov 10 15:46 VIIRS_F1_RSR_M8.dat_bandavg_IBN
+-rw-rw-r--    1 ccm      ccm           842 Nov 10 15:56 VIIRS_F1_RSR_M9.dat_bandavg_IBN
+-rw-rw-r--    1 ccm      ccm          2692 Nov 10 16:07 README_OCT2011_bandavg_IBN   (this file)
+
+Chris Moeller
+University of Wisconsin
+Nov 10, 2011
+chrism@ssec.wisc.edu
